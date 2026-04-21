@@ -95,7 +95,7 @@ print(classification_report(y_true, y_pred))
 #11.save model 
 torch.save(model.state_dict(), "../models/model.pt")
 
-print("Model saved successfully ✅")
+print("Model saved successfully ")
 
 #12. test with custom inputs 
 
@@ -114,9 +114,9 @@ def predict_spam(text):
         prediction = (output > 0.5).float().item()
 
     if prediction == 1:
-        print("Spam ❌")
+        print("Spam ")
     else:
-        print("Not Spam ✅")
+        print("Not Spam ")
 
 
 # text samples 
