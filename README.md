@@ -57,7 +57,8 @@ How to Run
 pip install -r requirements.txt
 2. Run training
 python src/main.py
-📂 Project Structure
+
+Project Structure
 ai-text-classification/
 │
 ├── src/
